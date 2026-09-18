@@ -1,0 +1,6 @@
+[30;42m > [0m [93mcd[0m [36m$env:APPDATA[0m
+[30;42m > [0m [93mpwd[0m
+
+[0m[1;32mPath[0m
+[0m[1;32m----[0m
+C:\Users\jaid\AppData\Roaming

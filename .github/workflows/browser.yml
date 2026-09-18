@@ -1,0 +1,27 @@
+name: browser
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v6.0.2
+    - name: setupBun
+      uses: oven-sh/setup-bun@v2.2.0
+      with:
+        bun-version: 1.4.2
+    - name: install
+      run: bun install --frozen-lockfile
+    - name: typecheck
+      run: bun run typecheck
+    - name: build
+      run: bun run build
+    - name: installBrowser
+      run: bun x playwright install --with-deps chromium
+    - name: browserRegressions
+      run: bun run test:browser

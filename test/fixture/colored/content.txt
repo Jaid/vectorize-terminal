@@ -1,0 +1,2 @@
+[0m[93mecho[0m [37mfoo[0m
+foo

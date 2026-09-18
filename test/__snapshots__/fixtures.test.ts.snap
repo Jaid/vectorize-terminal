@@ -1,0 +1,11 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`colored fixture renders deterministically and exports valid SVG and PNG 1`] = `"1891a59757e25f0a915ac8264e1cc902b27d50f9fc34a0b07d0c3080bfd3af49"`;
+
+exports[`fastfetch fixture renders deterministically and exports valid SVG and PNG 1`] = `"a8e14e98f3eb0aff1e060c5e5e15aa47933bf66bdc93fbebcf5dbb8a16c3053c"`;
+
+exports[`isup fixture renders deterministically and exports valid SVG and PNG 1`] = `"03e701aa125e63c122002e2e8ff88ab7d9a6e717f0b3a19a046ee389422057c9"`;
+
+exports[`minimal fixture renders deterministically and exports valid SVG and PNG 1`] = `"44b24ad402157f4a3a270754d8331f1bbe5e0ba3d2613d35fc50b3c061a6744b"`;
+
+exports[`pwd fixture renders deterministically and exports valid SVG and PNG 1`] = `"334e0634ba71daa09d03ca1a3f24ebf622e98d32e0753a9380b53d8025f31f1e"`;

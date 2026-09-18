@@ -1,3 +1,5 @@
 [test]
 root = "test"
 maxConcurrency = 1
+coverageReporter = "lcov"
+coverageDir = "out/test/coverage"
